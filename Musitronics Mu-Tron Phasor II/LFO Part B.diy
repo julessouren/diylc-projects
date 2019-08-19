@@ -7,8 +7,8 @@
   </fileVersion>
   <title>New Project</title>
   <author>jules</author>
-  <width value="29.0" unit="cm"/>
-  <height value="21.0" unit="cm"/>
+  <width value="21.0" unit="cm"/>
+  <height value="8.0" unit="cm"/>
   <gridSpacing value="0.1" unit="in"/>
   <components>
     <diylc.boards.VeroBoard>

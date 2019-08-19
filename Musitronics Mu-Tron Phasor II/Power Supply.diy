@@ -7,8 +7,8 @@
   </fileVersion>
   <title>New Project</title>
   <author>Jules</author>
-  <width value="29.0" unit="cm"/>
-  <height value="21.0" unit="cm"/>
+  <width value="7.0" unit="cm"/>
+  <height value="5.0" unit="cm"/>
   <gridSpacing value="0.1" unit="in"/>
   <components>
     <diylc.boards.VeroBoard>
@@ -362,22 +362,16 @@
     <diylc.misc.WrapLabel>
       <name>L4</name>
       <controlPoints>
-        <point x="0.9" y="0.2"/>
-        <point x="2.2" y="0.2"/>
+        <point x="0.8" y="0.6"/>
+        <point x="2.1" y="0.6"/>
       </controlPoints>
-      <firstPoint x="0.9" y="0.2"/>
-      <secondPoint x="2.2" y="0.2"/>
+      <firstPoint x="0.8" y="0.6"/>
+      <secondPoint x="2.1" y="0.6"/>
       <font name="Square721 BT Roman" size="22" style="1"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <value>ICL7660S/MAX1044 Inverter</value>
     </diylc.misc.WrapLabel>
-    <diylc.misc.BOM>
-      <name>BOM1</name>
-      <size value="10.0" unit="cm"/>
-      <point x="0.3" y="1.9"/>
-      <color hex="000000"/>
-    </diylc.misc.BOM>
   </components>
   <groups/>
   <lockedLayers/>
