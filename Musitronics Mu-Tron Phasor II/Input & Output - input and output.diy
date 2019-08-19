@@ -368,7 +368,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
-      <value value="4.7" unit="K"/>
+      <value value="3.9" unit="K"/>
       <power>HALF</power>
       <colorCode>NONE</colorCode>
       <shape>Standard</shape>
@@ -435,8 +435,8 @@
       <width value="2.5" unit="mm"/>
       <points>
         <point x="2.3" y="2.0"/>
-        <point x="2.3" y="1.8"/>
-        <point x="2.3" y="1.95"/>
+        <point x="2.3" y="1.9"/>
+        <point x="2.3" y="2.0"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -827,8 +827,8 @@
       <width value="2.5" unit="mm"/>
       <points>
         <point x="2.5" y="1.8"/>
-        <point x="2.5" y="1.0"/>
-        <point x="2.5" y="1.4"/>
+        <point x="2.5" y="0.9"/>
+        <point x="2.5" y="1.35"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -848,9 +848,9 @@
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
       <points>
-        <point x="2.6" y="1.0"/>
-        <point x="2.8" y="1.0"/>
-        <point x="2.6" y="1.0"/>
+        <point x="2.6" y="0.9"/>
+        <point x="2.8" y="0.9"/>
+        <point x="2.6" y="0.9"/>
       </points>
       <bodyColor hex="6b6dce"/>
       <borderColor hex="4a4c90"/>
@@ -878,7 +878,7 @@
       <boardColor hex="f8ebb3"/>
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing value="0.1" unit="in"/>
-      <point x="2.7" y="1.0"/>
+      <point x="2.7" y="0.9"/>
     </diylc.connectivity.TraceCut>
     <diylc.passive.Resistor>
       <name>R10</name>
@@ -887,8 +887,8 @@
       <width value="2.5" unit="mm"/>
       <points>
         <point x="2.9" y="1.8"/>
-        <point x="2.9" y="1.0"/>
-        <point x="2.9" y="1.6"/>
+        <point x="2.9" y="0.9"/>
+        <point x="2.9" y="1.55"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -910,8 +910,8 @@
       <width value="2.5" unit="mm"/>
       <points>
         <point x="3.0" y="0.6"/>
-        <point x="3.0" y="1.0"/>
-        <point x="3.0" y="0.6"/>
+        <point x="3.0" y="0.9"/>
+        <point x="3.0" y="0.55"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -1082,9 +1082,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="0.9" y="1.7"/>
+        <point x="0.9" y="1.6"/>
         <point x="0.9" y="1.1"/>
-        <point x="0.9" y="1.45"/>
+        <point x="0.9" y="1.4"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -1372,6 +1372,19 @@
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <value>-9VDC</value>
+    </diylc.misc.WrapLabel>
+    <diylc.misc.WrapLabel>
+      <name>L11</name>
+      <controlPoints>
+        <point x="1.1" y="0.3"/>
+        <point x="2.7" y="0.3"/>
+      </controlPoints>
+      <firstPoint x="1.1" y="0.3"/>
+      <secondPoint x="2.7" y="0.3"/>
+      <font name="Square721 BT Roman" size="22" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <value>Input &amp; Output (v2 - fixes)</value>
     </diylc.misc.WrapLabel>
   </components>
   <groups/>
