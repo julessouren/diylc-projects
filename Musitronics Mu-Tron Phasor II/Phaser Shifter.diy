@@ -2958,10 +2958,10 @@
       <name>L13</name>
       <controlPoints>
         <point x="2.0" y="1.9"/>
-        <point x="3.4" y="1.9"/>
+        <point x="3.5" y="1.9"/>
       </controlPoints>
       <firstPoint x="2.0" y="1.9"/>
-      <secondPoint x="3.4" y="1.9"/>
+      <secondPoint x="3.5" y="1.9"/>
       <font name="Square721 BT Roman" size="22" style="1"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>

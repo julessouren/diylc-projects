@@ -370,7 +370,100 @@
       <font name="Square721 BT Roman" size="22" style="1"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
-      <value>ICL7660S/MAX1044 Inverter</value>
+      <value>ICL7660S/MAX1044 Bipolar Power Supply</value>
+    </diylc.misc.WrapLabel>
+    <diylc.connectivity.HookupWire>
+      <name>W4</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="2.1" y="1.4"/>
+        <point x="2.2" y="1.4"/>
+        <point x="2.2" y="1.5"/>
+        <point x="2.3" y="1.5"/>
+      </controlPoints2>
+      <color hex="000000"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W5</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="2.1" y="1.5"/>
+        <point x="2.2" y="1.5"/>
+        <point x="2.2" y="1.6"/>
+        <point x="2.3" y="1.6"/>
+      </controlPoints2>
+      <color hex="ffff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W6</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="2.1" y="1.6"/>
+        <point x="2.2" y="1.6"/>
+        <point x="2.2" y="1.7"/>
+        <point x="2.3" y="1.7"/>
+      </controlPoints2>
+      <color hex="ff0000"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.misc.WrapLabel>
+      <name>L5</name>
+      <controlPoints>
+        <point x="2.4" y="1.5"/>
+        <point x="2.8" y="1.5"/>
+      </controlPoints>
+      <firstPoint x="2.4" y="1.5"/>
+      <secondPoint x="2.8" y="1.5"/>
+      <font name="Square721 BT Roman" size="14" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <value>0 VDC</value>
+    </diylc.misc.WrapLabel>
+    <diylc.misc.WrapLabel>
+      <name>L6</name>
+      <controlPoints>
+        <point x="2.4" y="1.6"/>
+        <point x="2.8" y="1.6"/>
+      </controlPoints>
+      <firstPoint x="2.4" y="1.6"/>
+      <secondPoint x="2.8" y="1.6"/>
+      <font name="Square721 BT Roman" size="14" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <value>-9 VDC</value>
+    </diylc.misc.WrapLabel>
+    <diylc.misc.WrapLabel>
+      <name>L7</name>
+      <controlPoints>
+        <point x="2.4" y="1.7"/>
+        <point x="2.8" y="1.7"/>
+      </controlPoints>
+      <firstPoint x="2.4" y="1.7"/>
+      <secondPoint x="2.8" y="1.7"/>
+      <font name="Square721 BT Roman" size="14" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <value>+9 VDC</value>
     </diylc.misc.WrapLabel>
   </components>
   <groups/>
